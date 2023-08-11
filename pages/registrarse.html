@@ -11,16 +11,20 @@
 </head>
 
 <body>
+  <!-- barra de navegacion -->
     <header>
         <img class="logo" src="../assets/images/1589997551_LOGO TUCOTILLON.jpg" alt=""> 
         <nav class="navbar navbar-expand-lg background-color:#E76F51">
             <div class="container text-center w-100" >
-              <a class="navbar-brand" href="../index.html">Inicio</a>
+              <a class="navbar-brand" href=""></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="../index.html">inicio</a>
+                  </li>
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="./nosotros.html">Nosotros</a>
                   </li>
@@ -30,18 +34,8 @@
                   <li class="nav-item">
                     <a class="nav-link" href="./servicios.html">Servicios</a>
                   </li>
-
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="./productos.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Productos 
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Reposteria</a></li>
-                      <li><a class="dropdown-item" href="#">Snacks y Golosinas</a></li>
-                      <li><a class="dropdown-item" href="#">Todo Carioca</a></li>
-                      <li><a class="dropdown-item" href="#">Decoracion de fiestas</a></li>
-                      <li><a class="dropdown-item" href="#">Descartables</a></li>
-                    </ul>
+                  <li>
+                    <a class="nav-link" href="./productos.html">Productos</a>
                   </li>
                 </ul>
                 <form class="d-flex" role="search">
@@ -55,30 +49,34 @@
           </nav>
     </header>
     <main>
+  <!-- formulario -->
         <H1>CREA TU CUENTA</H1>
-        <form action="" method="post" enctype="text/plain">
-            <div>
+       <div class="container">
+            <form action="" method="post" enctype="text/plain">
+              <div>
                 <label for="NOMBRE Y APELLIDO">NOMBRE Y APELLIDO</label>
                 <input type="text" name="" id="NOMBRE Y APELLIDO" required>
-            </div>
-            <div>
+              </div>
+              <div>
                 <label for="EMAIL">CORREO ELECTRONICO</label>
                 <input type="email" name="" id="EMAIL" required>
-            </div>
-            <div>
+              </div>
+              <div>
                 <label for="CONTRASEÑA">CONTRASEÑA</label>
                 <input type="password" name="" id="CONTRASEÑA" required>
-            </div>
-            <div>
+              </div>
+              <div>
                 <label for="TELEFONO">NUMERO DE TELEFONO</label>
                 <input type="number" name="" id="TELEFONO" required>
-            </div>
-            <div>
+              </div>
+              <div>
                 <input type="submit" value="Enviar">
-            </div>
-            <P><a href="#">YA TENGO UNA CUENTA </a></P>
-        </form>
+              </div>
+                <P><a href="#">YA TENGO UNA CUENTA </a></P>
+            </form>
+       </div>
     </main>
+   
 
     <footer>
         <a href="./nosotros.html">CONTACTO</a>

@@ -1,63 +1,119 @@
-@font-face {
-    font-family:"honey";
-    src: url("../assets/fonts/Honey\ Beezy.ttf");
-}
+ /* navbar */
+ @font-face { 
+ font-family:"honey"; src: url("../assets/fonts/Honey\ Beezy.ttf"); 
+ }
+
+ body {
+    margin: 0;
+    padding: 0;
+ }
 
 header {
-   background-color:#E76F51 ;
-   font-family: "honey";
+    background-color: rgb(225, 149, 8);
+    font-family: "honey";
 }
 
+header li {
+    font-size: 1rem;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-transform:uppercase ;
+}
 
-.logo {
-    width: 40px;
-    height:40px ;
+.sticky {
+    position: sticky;
+    top: 0;
+}
+.logo{
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
 }
-/* .main-imag {
-    width:100% ;
-    height:50vh ;
-}
+ .container {
+    justify-content: center;
+ }
+    
+ 
+ /* carrusel */
 
-.img {
-    width: 50vh;
-    height: 50vh;
-    padding: 10px; ;
-    margin: 5 ;
-    border: 1px ;
-}
+.carousel-inner {
+    max-height: 30rem;
+    background-size: contain;
+}              
+ /* imagenes index */
 
-.cupcakes {
-    padding:5px ;
-    margin:20px ;
-    width: 100% ;
-    height: 25% ;
-}
+ div section img { 
+    width: 33%; 
+    height: 350px;
+    display: inline-flex;
+    }
 
-h1{
-    text-align: center; 
-} */
 
-footer {
-background-color: #264653;
-text-align: center;
-}
-footer a {
+/* imagen nosotros */
+
+.p-nosotros {
+    margin: 5%;
     padding: 10px;
-    margin: 30px;
-    text-decoration: none;
-    color: black;
-    border: 1px solid black;
-    background-color:#F4A261 ;
-    border-bottom: 40px;
     font-family: "honey";
-    display: inline ;
-    width: 40px;
-    height: 40px;
+    background-color: blanchedalmond;
+    justify-content: center;
+}
+.mapa {
+    max-width: 100%;
+    display:inline-flex ;
+    justify-content: space-around;
 }
 
+ /* footer */
+footer { 
+    width:100% ;
+    height:auto ;
+    margin: 0;
+    padding: 10px ;
+    background-color: #264653; 
+    text-align: center; 
+    } 
+    
+    footer a { 
+    
+    padding: 10px; 
+    margin: 30px; 
+    text-decoration: none; 
+    color: black; 
+    border: 1px solid black; 
+    background-color:rgb(225, 149, 8); 
+    border-bottom: 40px; 
+    font-family: "honey"; 
+    display: inline ; 
+    width: 40px; 
+    height: 40px; 
+    } 
+    
+.logos-footer { 
+     width:50px ; 
+    height:50px ; 
+    } 
 
-.logos {
-    width:50px ;
-    height:50px ;
-}
+
+  /* NOSOTROS */
+
+
+
+  /* REGISTRARSE */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
