@@ -38,6 +38,7 @@ header li {
  /* carrusel */
 
 .carousel-inner {
+
     max-height: 30rem;
     background-size: contain;
 }              
@@ -75,7 +76,7 @@ footer {
     text-align: center; 
     } 
     
-    footer a { 
+ .botoncontacto { 
     
     padding: 10px; 
     margin: 30px; 
@@ -96,9 +97,35 @@ footer {
     } 
 
 
-  /* NOSOTROS */
+  /* productos */
+  .foto-productos {
+    width: 350px; 
+    height: 350px;
+    display: inline-flex;
 
+  }
 
+/* servicios */
+.container-servicios {
+    margin: 10px ;
+    padding: auto;
+    justify-content: center;
+
+}
+.container-servicios div img {
+    width: 350px ;
+    height: 350px;
+    justify-content: space-between;
+
+}
+
+.container-servicios aside p {
+    width: 20px;
+    height: auto;
+    display: inline;
+    font-size: "honey";
+    background-color: bisque;
+}
 
   /* REGISTRARSE */
 
