@@ -7,7 +7,7 @@
     margin: 0;
     padding: 0;
  }
-
+   
 header {
     background-color: rgb(225, 149, 8);
     font-family: "honey";
@@ -25,6 +25,7 @@ header li {
     position: sticky;
     top: 0;
 }
+
 .logo{
     width: 80px;
     height: 80px;
